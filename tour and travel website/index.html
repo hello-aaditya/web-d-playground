@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌍Tour&Travel</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="Script2.js" type="module" defer></script>
+  </head>
+  <body style="background-image: url(images/bgThem.jpg)">
+    <div class="authantication">
+      <!-- login beginnes here-->
+      <div id="login_div">
+        <i class="fa-solid fa-user fa-5x"></i>
+        <br />
+        <p id="text_Login">Login</p>
+        <input
+          type="text"
+          id="login_email"
+          class="emailBox"
+          placeholder="Enter your email"
+        />
+        <input
+          type="password"
+          id="login_password"
+          class="passwordBox"
+          placeholder="Enter your password"
+        />
+        <input type="button" id="login_btn" class="login_Btn" value="Login" />
+        <button id="register_button" class="register_link">
+          Don't have an account? REGISTER
+        </button>
+      </div>
+
+      <!-- Registration beginnes here -->
+      <div id="registration_div">
+        <i class="fa-solid fa-user fa-5x"></i>
+        <br />
+        <p id="text_Register">Register</p>
+        <input
+          type="text"
+          id="register_email"
+          class="emailBox"
+          placeholder="Enter your email"
+        />
+        <input
+          type="password"
+          id="register_password"
+          class="passwordBox"
+          placeholder="Enter your password"
+        />
+        <input type="button" id="signUp" class="signUp_Btn" value="Register" />
+        <button id="login_link" class="login_link">
+          Already have an account? Login
+        </button>
+      </div>
+    </div>
+
+    <div class="toast_container">
+      <div class="toast" id="toast_text">
+        <span id="toast_result"></span>
+      </div>
+    </div>
+  </body>
+</html>

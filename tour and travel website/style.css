@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Redressed&family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Nunito:ital,wght@0,900;1,600&family=Pacifico&family=Redressed&family=Ubuntu+Mono&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+ 
+}
+
+h3,p
+{
+  color: rgb(239, 232, 232);
+}
+.content p{
+  color: rgb(239, 232, 232);
+}
+.content a {
+  color: rgb(7, 7, 7);
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 98vh;
+
+}
+#logo {
+  margin-bottom: 0 !important;
+}
+#navbarText {
+  justify-content: flex-end;
+}
+h1 {
+  color: white;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#preloader {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+}
+
+body #preloader {
+  background-color: rgb(20, 20, 20);
+}
+
+#container {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#container h1 {
+  color: rgb(82, 82, 82);
+  font-weight: 100;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#inscription {
+  width: 13ch;
+  display: flex;
+}
+
+#inscription i {
+  color: white;
+  padding-right: 0.3rem;
+  padding-left: 0.7rem;
+  font-family: monospace;
+  font-style: italic;
+}
+
+#inscription span {
+  color: white;
+  font-family: monospace;
+  width: 4ch;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: slashes 4s steps(4) infinite;
+}   
+
+
+#rectangles {
+  align-self: center;
+  width: 80px;
+  height: 80px;
+  position: relative;
+  justify-content: center;
+}
+
+.rect {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 4px double black;
+  border-radius: 10px;
+  animation: spinner 3s ease-in-out infinite;
+}
+
+.rect.q {
+  top: 0;
+  left: 0;
+  border-color: rgb(140, 50, 50);
+}
+.rect.w {
+  top: 0;
+  right: 0;
+  border-color: rgb(50, 140, 50);
+}
+.rect.e {
+  bottom: 0;
+  left: 0;
+  border-color: rgb(50, 140, 140);
+}
+.rect.r {
+  bottom: 0;
+  right: 0;
+  border-color: rgb(140, 140, 50);
+}
+
+@keyframes spinner {
+  45% {
+    border-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  55% {
+    border-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(1turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes slashes {
+  0% {
+    width: 0;
+  }
+}
+
+body {
+  background-image: url(images/vid-3.mp4);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+.authantication {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#login_div {
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 400px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.596);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(165, 154, 154, 0.18);
+}
+.fa-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 5px;
+  color: #eef1f5ec;
+}
+#text_Login {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: Transparent;
+  border: none;
+  color: white;
+  border: 0;
+  width: auto;
+  cursor: pointer;
+}
+
+.emailBox,
+.passwordBox {
+  display: flex;
+  padding-left: 15px;
+  justify-content: center;
+  font-family: "Segoe UI";
+  font-size: large;
+  align-items: center;
+  height: 45px;
+  width: 350px;
+  margin: auto;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: inset 0 0 5px black;
+}
+
+.login_Btn {
+  border: none;
+  display: flex;
+  padding-left: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 53px;
+  width: 149px;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 38px;
+  font-size: larger;
+  font-weight: 500;
+  background-color: rgb(168, 168, 168);
+}
+.login_Btn:hover {
+  cursor: pointer;
+  background-color: rgb(228, 228, 228);
+}
+.register_link {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: Transparent;
+  border: none;
+  margin-top: 30px;
+  color: white;
+  border: 0;
+  width: auto;
+  cursor: pointer;
+}
+
+#registration_div {
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  width: 400px;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.596);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(165, 154, 154, 0.18);
+  display: none;
+}
+
+#text_Register {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: Transparent;
+  border: none;
+  color: white;
+  border: 0;
+  width: auto;
+  cursor: pointer;
+}
+.login_link {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: Transparent;
+  border: none;
+  margin-top: 30px;
+  color: white;
+  border: 0;
+  width: auto;
+  cursor: pointer;
+}
+.signUp_Btn {
+  border: none;
+  display: flex;
+  padding-left: 15px;
+  justify-content: center;
+  align-items: center;
+  height: 53px;
+  width: 149px;
+  margin: auto;
+  border-radius: 20px;
+  margin-top: 38px;
+  font-size: larger;
+  font-weight: 500;
+  background-color: rgb(168, 168, 168);
+}
+.signUp_Btn:hover {
+  cursor: pointer;
+  background-color: rgb(228, 228, 228);
+}
+
+.toast_container {
+  float: right;
+}
+
+.toast {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: linear-gradient(to bottom, #46fb73 0%, #ace656 100%);
+  height: 40px;
+  width: 20rem;
+  color: white;
+  font-weight: 100;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  float: right;
+  padding: 5px;
+  border-radius: 10px;
+}
+.toast_container {
+  visibility: hidden;
+}
+/* ********************index2 start form here******************** */
+.bg-light .container-fluid .navbar-brand {
+  font-size: xx-large !important;
+  font-family: nunito !important;
+}
+.bg-light .container-fluid a {
+  font-weight: 500 !important;
+  color: rgb(65, 65, 65) !important;
+}
+.bg-light {
+  --bs-bg-opacity: 0;
+}
+nav.bg-light {
+  background-color: rgba(20, 20, 20, 0.655) !important;
+}
+.navbar-nav .nav-item {
+  float: right !important;
+}
+.back-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -2;
+  filter: brightness(65%);
+}
+#logout-button {
+  background-color: rgb(0, 0, 0);
+  border: none;
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.logout {
+  display: none;
+  font-size: 15px;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+  transition: opacity 0.45s;
+  margin-left: 10px;
+}
+.button {
+  padding: 0px;
+  color: rgb(240, 235, 235);
+  width: 15px;
+  transition: width 0.35s;
+  overflow: hidden;
+  display: flex;
+}
+#logout-button:hover .logout {
+  display: block;
+  opacity: 1;
+}
+#logout-button:hover .button {
+  width: 75px;
+}
+.nav-item:hover.nav-link {
+  border: 1px solid black !important;
+  border-radius: 5px !important;
+}
+#logo {
+  text-shadow: 1px 1px 1px #635f5f !important;
+  color: yellow !important;
+}
+
+
+.pages {
+  display: none;
+  /* padding: 50px 100px; */
+  color: var(--color-text-white);
+}
+.pages.active {
+  display: block;
+}
