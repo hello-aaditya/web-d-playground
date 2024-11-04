@@ -1,0 +1,1213 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;800&family=Rethink+Sans:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Raleway:wght@300;800&family=Rethink+Sans:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rethink Sans", sans-serif;
+
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+
+.main {
+    display: flex;
+    background-color: #f5da4d;
+}
+
+.contact_info {
+    width: 100%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.others {
+    display: flex;
+    align-items: center;
+    margin-right: 55px !important;
+}
+
+.phone {
+    margin-left: 80px;
+}
+
+.pho_no,
+.email {
+    padding: 12px;
+    margin: 5px;
+    color: black;
+    font-size: medium;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.navbar-brand {
+    margin-right: 90px !important;
+}
+
+.others img {
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
+.navbar {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.nav-link {
+    border-bottom: 2px solid #212529;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid gold;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.container-fluid {
+    margin-left: 30px !important;
+    font-size: larger;
+}
+
+.content {
+    margin-top: -150px;
+    background-image: url(vender/image/header-img.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 663px;
+}
+
+.box {
+    margin-top: 115px;
+    margin-left: 150px;
+    padding-top: 180px;
+}
+
+.vision h2 {
+    color: #f5da4d;
+    letter-spacing: 1px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.aim {
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 25px;
+    color: white;
+}
+
+.fa {
+    color: white;
+    margin: 3px;
+}
+
+.btn {
+    font-family: Raleway, Sans-serif;
+}
+
+.btncls button {
+    margin: 15px 15px 15px 0px;
+    font-family: "Raleway", sans-serif !important;
+    font-size: larger;
+}
+
+.heading {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway", Sans-serif;
+}
+
+.heading h3 {
+    font-weight: bold;
+    color: black;
+}
+
+.heading p {
+    font-family: "Raleway", Sans-serif;
+    font-size: large;
+    color: black;
+}
+
+.service-section {
+    height: 320px;
+}
+
+.diff-service {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}
+
+.row {
+    margin-top: 15px;
+    justify-content: center !important;
+    align-items: center important;
+}
+
+.row .prod_icon {
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.img_class {
+    margin: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(102, 102, 102);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #80808052;
+}
+
+.img_class:hover {
+    box-shadow: 5px 5px 10px #36363662;
+}
+
+.internet-1 {
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+
+.img_class a {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+    font-size: large;
+}
+
+
+.process-section {
+    margin-top: 20px;
+
+}
+
+
+.prod_bg {
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    background-color: #f4f4f7;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.product_img {
+    margin: 2px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(160, 160, 160);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #80808052;
+}
+
+.col-md-4 .product_img {
+    background-color: #ffffff;
+}
+
+.product_img .prod_icon {
+    border: none;
+}
+
+.product_img:hover {
+    box-shadow: 5px 5px 10px #36363662;
+}
+
+.prod_head {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.product_img a {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: black;
+    font-size: large;
+}
+
+.process-section .container {
+    margin-top: 10px;
+    margin-left: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.contact_form {
+    background-image: url(vender/image/bg-3.jpg);
+}
+
+.happy-client .process_head {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.happy-client h3 {
+    font-weight: bold;
+}
+
+
+.happy-client {
+    background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1);
+
+}
+
+
+.happy-icon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.positive,
+.earth {
+    padding: 10px;
+    margin: 10px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    border-width: 0px 0px 0px 2px;
+}
+
+.complete,
+.positive,
+.earth {
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.happy-text-col {
+    width: 230px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(20, 20, 20);
+    font-family: "Raleway", Sans-serif;
+    text-align: justify;
+    /* font-size: x-large; */
+}
+
+.happy-text-col p {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.happy-client-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AllCustomer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    font-size: large;
+}
+
+.AllCustomer button {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-family: "Raleway", sans-serif !important;
+    font-weight: bold;
+}
+
+
+.AllCustomer button:hover {
+    color: rgb(0, 0, 0) !important;
+    font-family: "Raleway", sans-serif !important;
+}
+
+.carouserl {
+    z-index: 999;
+}
+
+/* sliding */
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+
+.slider {
+    background: white;
+    /* box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125); */
+    height: 100px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 960px;
+}
+
+.slider::before,
+.slider::after {
+    background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+
+.slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.slider::before {
+    left: 0;
+    top: 0;
+}
+
+.slider .slide-track {
+    animation: scroll 20s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.slider .slide {
+    height: 100px;
+    width: 250px;
+}
+
+/* slider css ends here */
+
+.contact_form {
+    background-image: url(vender/image/bg-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 653px;
+}
+
+.parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.child p {
+    margin-top: 20px;
+    color: white;
+    font-size: xx-large;
+    font-family: "Raleway", sans-serif;
+}
+
+.child1 {
+    background-image: url(vender/image/map-image.png);
+    width: 50%;
+    height: 401px;
+}
+
+.parent2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.child2 {
+    margin: 10px;
+    border-radius: 5px;
+    height: 401px;
+}
+
+/* form css starts here */
+
+.form-area {
+    background-color: #fff;
+    box-shadow: 0px 5px 10px rgba(90, 116, 148, 0.3);
+    padding: 40px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-area .form-inner {
+    width: 100%;
+}
+
+.form-control {
+    margin: 5px;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 19px;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #475f7b;
+    background-color: #fff;
+    border: 1px solid #dfe3e7;
+    border-radius: 0.267rem;
+    -webkit-transition: border-color 0.15s ease-in-out,
+        box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #475f7b;
+    background-color: #fff;
+    /* border-color: #ffdf3e; */
+    outline: 0;
+    box-shadow: 0 3px 8px 0 rgb(0 0 0 / 10%);
+}
+
+.intl-tel-input,
+.iti {
+    width: 100%;
+}
+
+.form-group .btn {
+    background-color: #fdd81df5 !important;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+}
+
+.form-group .btn:hover {
+    background-color: #ffd504 !important;
+    color: rgb(0, 0, 0);
+}
+
+.form-group #phone {
+    margin: 5px;
+}
+
+/* country selector */
+.iti__country-list {
+    right: 0px;
+}
+
+/* ----- */
+
+
+.process-section h6 {
+    color: rgb(0, 0, 0);
+}
+
+.portfolio-section {
+    background-image: url(vender/image/Map.jpg );
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-section {
+    padding: 15px;
+
+}
+
+
+.web-mob-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 5px; */
+}
+
+.web-mob-btn .btn {
+    margin: 10px;
+    color: white;
+    font-weight: 600;
+    width: 300px;
+    padding: 8px 0px 8px 0px;
+
+}
+
+.web-mob-btn .btn:hover {
+    background-color: #ffd504 !important;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+.sample-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sample-portfolio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin: 10px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.sample-portfolio img {
+    width: 100%;
+    height: 500px;
+}
+
+.sample-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.sample-portfolio:hover .sample-child {
+    display: block;
+}
+
+a.btn.btn-warning {
+    background-color: goldenrod !important;
+    color: white;
+
+}
+
+.sample-child {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.sample-child h5 {
+    color: white;
+}
+
+.sample-portfolio:hover a {
+    background-color: rgb(0, 0, 0);
+}
+
+.sample-portfolio:hover img {
+    opacity: 0.5;
+}
+
+
+.more-samp-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recognized {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    background-color: #09203A;
+}
+
+.text {
+    color: white;
+    margin-top: 10px;
+}
+
+.aboutUs {
+    background-image: url(vender/image/about-us-bg.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutus-des {
+    background: rgba(71, 71, 71, 0.486);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(78, 78, 78, 0.18);
+}
+
+.shadow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+
+}
+
+.aboutus-des .about-cont {
+    margin: 10px;
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+
+}
+
+.about-cont h5 {
+    color: gold;
+    font-size: larger;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.cont-p {
+    text-align: justify;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.about-cont span {
+    color: white;
+    text-align: justify;
+
+}
+
+
+.input-box input:hover {
+    border:2px solid gold;
+    outline: none;
+}
+.cont-p span {
+
+    color: white;
+}
+
+
+.cont-icon {
+    margin: 10px;
+}
+
+.about-cont .u-line {
+    border: 2px solid gold;
+    width: 10%;
+}
+
+.about-text {
+    margin-top: 15px;
+    padding-left: 5px;
+}
+
+.rights-section {
+    text-align: center;
+    color: white;
+    font-family: "Raleway", sans-serif;
+    font-size: 100;
+}
+
+
+
+/* for viewOurWork */
+
+.viewOurWork {
+    background-image: url(vender/image/ViewOurWork.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.viewOurWork {
+    color: gold;
+    padding: 30px;
+}
+
+.sometxt {
+    margin-top: 117px;
+    margin-left: 30px;
+
+
+}
+
+.sometxt h1 {
+    font-size: x-larger;
+    font-weight: bolder;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+.change {
+    color: white;
+    display: flex;
+}
+
+.web-box {
+    background-color: #ffffffa2;
+    margin-bottom: 15px;
+}
+
+.web-portfolio {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    transition: background-color 0.3s;
+
+}
+
+
+.web-portfolio img {
+    width: 100%;
+    height: 500px;
+    padding: 5px;
+    transition: opacity 0.3s;
+
+}
+
+.web-pic {
+    object-fit: cover;
+    border: 5px solid gold;
+    border-radius: 10px;
+
+}
+
+.web-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.web-child a.btn {
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #000;
+}
+
+
+  
+
+/* Webdevelopment-page */
+
+.Webdevelopment-header {
+    margin-top: 90px;
+    width: 100%;
+}
+
+.Webdevelopment-img {
+    background-image: url(vender/image/Six-Weeks-Training-in-Web-Development-1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 384px;
+
+}
+
+.web-glass {
+    width: 100%;
+    height: 384px;
+    display: flex;
+    align-items: center;
+    background: rgba(75, 75, 75, 0.205);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.1px);
+    -webkit-backdrop-filter: blur(3.1px);
+}
+
+.web-glass-text {
+    color: rgb(252, 252, 252);
+    text-align: justify;
+    margin-left: 80px;
+}
+
+
+
+.web-contactForm {
+    border: 3px solid gold;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+.web-contactForm h4 {
+    color: #1f1f1f;
+
+}
+
+.web-contactForm p {
+    font-size: large;
+    font-weight: 900;
+}
+
+.about-web-row {
+    margin: 40px;
+}
+
+.about-webDev-text h2 {
+    font-size: 23px;
+}
+
+.about-webDev-text {
+    width: 600px;
+    text-align: justify;
+}
+
+.about-webDev-text p {
+    margin-top: 10px;
+}
+
+.input-box {
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-box input {
+    border: 2px solid rgb(139, 139, 139);
+}
+
+.input-box .input-design {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.web-form {
+    border: 2px solid gold;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input-box {
+    margin-bottom: 5px;
+}
+
+.impact-parent {
+    background-color: #ffffff;
+    padding-top: 50px;
+    height: 400px;
+}
+
+.impact {
+    text-align: center;
+}
+
+.impact-p {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.impact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.impact-p:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: box-shadow 0.3s ease-in-out;
+
+}
+
+.about-right {
+    background-color: #f5f5f5d5;
+}
+
+.about-right-p {
+    display: flex;
+    justify-content: center;
+
+    margin: 10px;
+}
+
+.about-right-child {
+    width: 700px;
+    height: 500px;
+}
+
+.about-right-text {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.right-img {
+    width: 400px;
+    height: 400px;
+    border: 1px solid none;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.right-img img:hover {
+    /* width: 450px;
+    height: 430px; */
+    /* transition-duration: 0.3s;
+    transition-property: transform; */
+    transform: scale(1.05);
+
+}
+
+
+/* mob-dev.html */
+
+.mobdev-img {
+    background-image: url(vender/image/Mobile-App-Development-Company-Jabalpur.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 384px;
+
+}
+
+.about-mob-dev {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 10px solid rgb(175, 175, 175);
+    border-radius: 5px;
+}
+
+.group-img {
+    width: 100%;
+}
+
+.about-movdev-text {
+    text-align: center;
+}
+
+.hybrid {
+    text-align: center;
+}
+
+.hybrid-img img {
+
+    width: 100%;
+
+}
+
+.hybrid-icon {
+    width: 300px;
+    height: 100px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.hybrid-fa {
+    text-align: center;
+    width: 50px;
+    color: #ffffff;
+}
+
+.hybrid-p .hybrid-icon {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 10px;
+}
+
+.hybrid-icon h4 {
+    color: white;
+}
+
+
+
+/* uiux.html */
+
+.uiux-img {
+    background-image: url(vender/image/uiux.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 384px;
+}
+
+.uiux-img-p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.uiux-img-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid rgba(128, 128, 128, 0.692);
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.uiux-img-box:hover {
+    box-shadow: none;
+    transition: box-shadow 0.3ms;
+}
+
+.v-line {
+    margin-top: -10px;
+    border: 2px solid yellow;
+    width: 70px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+
+}
+
+
+.uiux-img-box h4 {
+    margin: 5px;
+}
+
+.uiux-icon {
+
+    width: 80px;
+    height: 80px;
+}
+
+.uiux-p {
+    margin-top: 55px;
+}
+
+.uiux-fa {
+    display: flex;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.uiux-fa i {
+    margin-right: 5px;
+}
+
+/* content.html */
+
+.content-img {
+    background-image: url(vender/image/content.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-why{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+    background-color: #e8ff68b9;
+}
+
+.v-mid-line {
+    margin-top: 4px;
+    border: 2px solid yellow;
+    width: 70%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.content-para{
+    text-align: center;
+    margin: 30px;
+}
+
+/* data.html. */
+
+.data-img{
+    background-image: url(vender/image/data\ management\ banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.benefits-p{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction:column ;
+}
+
+.benefits-txt{
+    text-align: center;
+}
+
+
+/* crm.html */
+
+.crm-img{
+    background-image: url(vender/image/crm-dr-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/* mobdevSamp.html */
+
+.mob-dev-project{
+    background-image: url(vender/image/Mob-dev-banner.webp);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.mob-dev-project .sometxt{
+    padding: 100px;
+    color: white;
+}
+
+@keyframes OurServiceAnime{
+    0%{
+        position: relative;
+        top: 30px;
+
+    }
+    100%{
+        position: relative;
+        top: 0px;
+
+    }
+
+}
+.img_class{
+    animation: OurServiceAnime 2.5s ease-in-out forwards;
+}
