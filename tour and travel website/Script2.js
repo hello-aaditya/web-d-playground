@@ -12,7 +12,7 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAyKqcaklHPW3QZWPU6jznq_DL1FeoMzBw",
+  apiKey: "your_api",
   authDomain: "travellwebapplication.firebaseapp.com",
   projectId: "travellwebapplication",
   storageBucket: "travellwebapplication.firebasestorage.app",

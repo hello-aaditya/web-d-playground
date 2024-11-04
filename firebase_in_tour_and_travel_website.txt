@@ -1,0 +1,9 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyAyKqcaklHPW3QZWPU6jznq_DL1FeoMzBw",
+  authDomain: "travellwebapplication.firebaseapp.com",
+  projectId: "travellwebapplication",
+  storageBucket: "travellwebapplication.firebasestorage.app",
+  messagingSenderId: "279782437248",
+  appId: "1:279782437248:web:91edde2cc424b760ea1165",
+  measurementId: "G-9QC5JETF21"
+};
